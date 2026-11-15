@@ -1,0 +1,25 @@
+$ python -m unittest -v test_emotion_detection.TestEmotionDetector test_emotion_detection.TestWebApplication
+
+test_all_dominant_emotions (test_emotion_detection.TestEmotionDetector.test_all_dominant_emotions)
+Exercise the five rubric examples against controlled API responses. ... ok
+test_blank_input (test_emotion_detection.TestEmotionDetector.test_blank_input)
+Blank input is rejected before making a network request. ... ok
+test_http_400 (test_emotion_detection.TestEmotionDetector.test_http_400)
+Watson rejects invalid text with six null values. ... ok
+test_transport_failure (test_emotion_detection.TestEmotionDetector.test_transport_failure)
+An outage must never become a fabricated prediction. ... ok
+test_blank_input (test_emotion_detection.TestWebApplication.test_blank_input)
+Missing and whitespace-only input display the rubric error. ... ok
+test_formatted_result (test_emotion_detection.TestWebApplication.test_formatted_result)
+The successful route includes the scores and dominant emotion. ... ok
+test_index (test_emotion_detection.TestWebApplication.test_index)
+The interface loads successfully. ... ok
+test_service_unavailable (test_emotion_detection.TestWebApplication.test_service_unavailable)
+A service outage is reported as HTTP 503. ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.133s
+
+OK
+
+Exit code: 0

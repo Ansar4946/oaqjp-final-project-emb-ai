@@ -1,0 +1,7 @@
+$ python -c import EmotionDetection; from EmotionDetection import emotion_detector; print('Package:', EmotionDetection.__file__); print('Callable:', callable(emotion_detector)); print('Blank-input contract:', emotion_detector(''))
+
+Package: C:\Users\Penta Squad\Desktop\New folder\New folder (3)\emotion-detector\EmotionDetection\__init__.py
+Callable: True
+Blank-input contract: {'anger': None, 'disgust': None, 'fear': None, 'joy': None, 'sadness': None, 'dominant_emotion': None}
+
+Exit code: 0
